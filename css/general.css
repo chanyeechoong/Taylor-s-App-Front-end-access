@@ -1,0 +1,145 @@
+.tableDesign , td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+
+th{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+label.form{
+	 display: inline-block;
+	 width: 140px; 
+	 text-align: right;
+}
+
+.form-wrapper{
+	width:50%;
+	margin: 20px auto;
+}
+
+.label-textarea textarea{
+	vertical-align: middle;
+}
+
+
+.form-wrapper label{
+	margin:2px 10px;
+	display: block;
+	width:50%;
+	float:left;
+}
+
+#button{
+	display:block;
+	
+	margin:20px auto;
+}
+
+.input{
+	margin:2px 10px;
+}
+
+.error-message{
+	color: red;
+	text-align:center;
+}
+
+.radio-group{
+	text-align: center;
+}
+
+.radio-group input{
+	margin:1% 1%;
+}
+
+#updatePara{
+	text-align:center;
+	color:red;
+}
+
+.div-ul-wrapper {
+ width:465px;
+ margin:0 auto;
+ text-align:center;
+}
+
+.li-wrapper {
+ 
+ padding:5px 0;
+
+}
+
+.li-wrapper li {
+ display:inline;
+ list-style-type:none;
+ margin:4px;
+}
+
+
+//////#####
+
+/* INLINE LIST CODE*/
+
+/* 
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+nav.div-ul-wrapper {
+  margin: 50px;
+}
+ 
+ul.li-wrapper {
+  overflow: auto;
+  list-style-type: none;
+  text-align: center;
+
+}
+ 
+.li-wrapper li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+  text-align:center;
+
+}
+ 
+.li-wrapper li:last-child {
+  border-right: none;
+}
+ 
+.li-wrapper li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 15px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.li-wrapper li a:hover {
+  color: #666;
+}
+ 
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+*/
+
+

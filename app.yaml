@@ -1,0 +1,51 @@
+application: taylors-frontend
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /.*
+  script: index.php
+  secure: always
+
+- url: /util
+  script: secure_connection_helper.php
+
+- url: /util
+  script: valid_admin.php
+
+- url: /view
+  script: academicnews.php
+
+- url: /view
+  script: mainview.php
+
+- url: /view
+  script: campusnews.php
+
+- url: /view
+  script: clubs_society.php
+
+- url: /view
+  script: events.php
+
+- url: /helper_function
+  script: select_helper_function.php
+
+- url: /helper_function
+  script: insert_helper_function.php
+
+- url: /update_function
+  script: update_helper_function.php
+
+- url: /database_helper
+  script: admin_db.php
+
+- url: /database_helper
+  script: database.php
+
+- url: /.*
+  script: login.php
